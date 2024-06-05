@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Приклад з JavaScript</title>
+</head>
+<body>
+    <button id="myButton">Натисни мене!</button>
+    <script>
+        // Отримуємо доступ до кнопки по її ідентифікатору
+        var button = document.getElementById('myButton');
+
+        // Додаємо обробник подій на кнопку
+        button.addEventListener('click', function() {
+            alert('Привіт, Катерино! Це повідомлення з JavaScript.');
+        });
+    </script>
+</body>
+</html>
