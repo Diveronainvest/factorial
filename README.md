@@ -1,2 +1,2 @@
 # factorial
-# some rules
+
